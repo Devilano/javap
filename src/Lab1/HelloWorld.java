@@ -1,3 +1,5 @@
+package Lab1;
+
 public class HelloWorld {
     int myVariable=1;
     static int data = 30;
