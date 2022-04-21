@@ -2,20 +2,35 @@ import java.util.Scanner;
 
 public class Practice {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter the principle:");
-        String P = scanner.nextLine();
-        System.out.println("Enter a rate:");
-        String T = scanner.nextLine();
-        System.out.println("Enter a time:");
-        String R = scanner.nextLine();
-        int P1= Integer.parseInt(P);
-        int T1=Integer.parseInt(T);
-        int R1=Integer.parseInt(R);
-        int SI=(P1*T1*R1)/100;
 
-        System.out.println(SI);
-
-
+            {
+                int day = 5;
+                switch(day) {
+                    case 0:
+                        System.out.println("Sunday");
+                        break;
+                    case 1:
+                        System.out.println("Monday");
+                        break;
+                    case 2:
+                        System.out.println("Tuesday");
+                        break;
+                    case 3:
+                        System.out.println("Wednesday");
+                        break;
+                    case 4:
+                        System.out.println("Thursday");
+                        break;
+                    case 5:
+                        System.out.println("Friday");
+                        break;
+                    case 6:
+                        System.out.println("Saturday");
+                        break;
+                    default:
+                        System.out.println("Invalid");
+                        break;
+                }
+            }
     }
 }
