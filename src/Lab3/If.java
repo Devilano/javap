@@ -84,9 +84,9 @@ class Check5{
         int a=num.nextInt();
 
         if (a % 2 == 0) {
-            System.out.println("Can be divisible by 2");
+            System.out.println("It is even number");
         }else{
-            System.out.println("Cannot be divisible by 2");
+            System.out.println("It is odd number");
         }
     }
 }
@@ -429,15 +429,15 @@ class Determine_triangle1{
 //17.
 class RootsOfQuadratic {
     public static void main(String args[]) {
-        double secondRoot , firstRoot;
+        double secondRoot=0, firstRoot=0;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of a :");
+        System.out.println("Enter the value of a ::");
         double a = sc.nextDouble();
 
-        System.out.println("Enter the value of b :");
+        System.out.println("Enter the value of b ::");
         double b = sc.nextDouble();
 
-        System.out.println("Enter the value of c :");
+        System.out.println("Enter the value of c : :");
         double c = sc.nextDouble();
 
         double determinant = (b * b) - (4 * a * c);
